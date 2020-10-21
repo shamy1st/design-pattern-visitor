@@ -5,7 +5,7 @@
 ### Problem: 
 You have a **HtmlDocument** with list of **HtmlNode** and existing operation highlight, now you want to add another operation **plaintext** to get the content of HtmlNode.
 
-The issue is everytime you want to add new operation like **plaintext**, you need to implement it into each class which implements **HtmlNode** + modify the **HtmlDocument** class, this approach violate ([Open–closed principle](https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle)).
+The issue is everytime you want to add a new operation like **plaintext**, you need to implement it into each class which implements **HtmlNode** + modify the **HtmlDocument** class, this approach violate [Open–closed principle](https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle).
 
     public class Main {
         public static void main(String[] args) {
