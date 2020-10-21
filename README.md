@@ -3,7 +3,7 @@
 **Visitor** design pattern allows to add new operation to existing object structure without modifying it.
 ![](https://github.com/shamy1st/design-pattern-visitor-java/blob/main/visitor-uml.png)
 ### Problem: 
-You have a **HtmlDocument** with list of **HtmlNode** and existing operation highlight, now you want to add another operation **plaintext** to get the content of HtmlNode.
+You have a **HtmlDocument** with list of **HtmlNode** and existing operation **highlight**, now you want to add another operation **plaintext** to get the content of any **HtmlNode**.
 
 The issue is everytime you want to add a new operation like **plaintext**, you need to implement it into each class which implements **HtmlNode** + modify the **HtmlDocument** class, this approach violate [Open–closed principle](https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle).
 
