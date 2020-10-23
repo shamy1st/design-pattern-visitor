@@ -1,4 +1,4 @@
-# Visitor Design Pattern (Java Implementation)
+# Visitor Design Pattern (Java)
 
 **Visitor** add new operation to an object structure without modifying it.
 ![](https://github.com/shamy1st/design-pattern-visitor-java/blob/main/visitor-uml.png)
