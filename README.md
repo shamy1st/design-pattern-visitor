@@ -1,6 +1,6 @@
 # Visitor Design Pattern (Java Implementation)
 
-**Visitor** design pattern allows to add new operation to existing object structure without modifying it.
+**Visitor** add new operation to an object structure without modifying it.
 ![](https://github.com/shamy1st/design-pattern-visitor-java/blob/main/visitor-uml.png)
 ### Problem: 
 You have a **HtmlDocument** with list of **HtmlNode** and existing operation **highlight**, now you want to add another operation **plaintext** to get the content of any **HtmlNode**.
