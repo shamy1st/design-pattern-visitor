@@ -1,7 +1,6 @@
 # Visitor Design Pattern (Java)
-
 **Visitor** add new operation to an object structure without modifying it.
-![](https://github.com/shamy1st/design-pattern-visitor-java/blob/main/visitor-uml.png)
+![](https://github.com/shamy1st/design-pattern-visitor/blob/main/uml.png)
 ### Problem: 
 You have a **HtmlDocument** with list of **HtmlNode** and existing operation **highlight**, now you want to add another operation **plaintext** to get the content of any **HtmlNode**.
 
@@ -47,4 +46,4 @@ The issue is everytime you want to add a new operation like **plaintext**, you n
         }
     }
 ### Solution:
-![](https://github.com/shamy1st/design-pattern-visitor-java/blob/main/visitor-solution-uml.png)
+![](https://github.com/shamy1st/design-pattern-visitor/blob/main/uml-solution.png)
